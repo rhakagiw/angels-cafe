@@ -1,0 +1,230 @@
+/* Angel's Cafe Theme Created by R Web Designs LLC 2019*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap');
+ 
+
+*{ margin:0;
+    padding:0;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+body {
+    overflow: hidden !important;
+    width: 100%;
+    height: 100%; 
+    font-family: 'Lato', sans-serif;
+    line-height:2.1rem;
+}
+a{
+color:#fff;
+}
+
+/*-----------------Navigation starts here------------------*/
+a.nav-link{
+    color:#fff;
+}
+a.nav-link:hover{
+    background-color:rgb(126,132,119); 
+}
+a:hover{
+color:#fff;
+}
+
+.btn:hover{
+    background-color:rgb(107,111,99); 
+    color:#fff; 
+}
+.navbar{
+   padding:0px;
+}
+.navbar .nav-link.active{
+    border-left:#fff 3px solid;
+}
+
+button.navbar-toggler:focus{
+    outline: none!important;
+}
+
+a[href^="tel"]{
+    color:inherit;
+    text-decoration:none;
+}
+
+
+[role="button"] {
+    cursor: pointer;
+  }
+
+
+span.navbar-toggler-icon{
+    background-color:rgb(126,132,119);
+  
+}
+.nav-link{
+    color:#fff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing:0.2rem;
+    text-transform:capitalize;
+}
+.nav-link:hover{
+    color:#fff;
+}
+
+#navBar{
+    background-color:rgb(58,53,44);
+    padding:.5rem;
+    opacity:0.8;
+}
+
+.svg-inline--fa.fa-w-14{
+    color:#fff;
+}
+
+
+/*--------------------------Navigation ends here---------------*/
+/*--------------------------banner header section--------------*/
+.jumbotron{
+    background-image:linear-gradient(rgba(0,0,0, 0.4),rgba(0, 0,0, 0.7)), url('../img/inside-cafe.jpg');
+    background-attachment:scroll;
+    background-size:cover;
+    background-position:center;
+}
+
+.banner{
+    position:absolute;
+
+}
+
+.banner-heading{
+    animation-name:anim;
+    animation-duration:2s;
+    font-size:2.8rem;
+    letter-spacing:.2rem;
+    font-weight:300;
+}
+@media (max-width: 768px) { 
+    .banner-heading{
+        font-size:2rem;
+    }
+    .accent{
+       font-size:1.6rem;
+     }
+   }
+
+
+.accent{
+    font-weight:100;
+    font-size:2.3rem;
+}
+
+.banner-par{
+    animation-name:anim;
+    animation-duration:2s;
+    animation-delay:.5s;
+    animation-fill-mode:backwards;  
+}
+
+
+
+@keyframes anim{
+    0%{
+        transform:translateX(-100px);
+        opacity:0;
+    }
+
+    100%{
+        transform:translateX(0);
+        opacity:1;
+    }
+}
+/*-----------------banner header section ends here--------------*/
+/*-----------------Viewport starts here-------------------------*/
+.max-viewport{
+    min-height:92vh;
+}
+/*------------------Viewport ends here--------------------------*/
+/*------------------Heading styles start here-------------------*/
+
+h2{
+    font-size:2rem;
+}
+h3{
+    font-size:1.7rem;
+}
+h4{
+    font-size:1.3rem;
+}
+
+@media (max-width: 768px) {
+    .where{
+        font-size:1rem !important;
+    }
+    }
+
+h5{
+    font-size:1.1rem;
+}
+h6{
+    font-size:.8rem;
+}
+
+.lead{
+    font-size:1.2rem;
+}
+p{
+    font-size:1rem;
+}
+h1,h2{
+    font-weight:900;
+    text-transform:capitalize;
+}
+h3{
+    font-weight:700;
+}
+h4,h5,h6{
+    font-weight:300;
+}
+
+.title-content{
+    margin-top:3rem;
+}
+.title-underline{
+    width:90px;
+    border:3px solid rgb(126,132,119);
+    margin-bottom:4rem;
+    }
+  
+.quote-wrapper{
+    background-color:rgb(211, 214, 205);
+    padding:2rem;
+}
+/*----------------------------heading styles end here-------------------*/
+.card-header{
+    background-color:rgb(211, 214, 205);
+}
+ button.btn.btn-link{
+    color:rgb(33,37,41) !important;
+
+} 
+button.btn.btn-link:hover{
+    color:#ffffff !important;
+    text-decoration:none !important;
+}
+
+button.btn.btn{
+    background-color:rgb(211, 214, 205);
+}
+
+/*---------------------------footer starts here-------------------------*/
+
+#footer{
+    
+    color:#222;
+}
+
+.mb-5a{
+    margin-bottom:4rem;
+}
+/*---------------------------footer ends here---------------------------*/
